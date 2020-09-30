@@ -1,0 +1,30 @@
+.desktop-1 {
+width: 1440px;
+height: 4788px;
+
+background: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('img/dekstop-1.2.png');
+    width: 1440px;
+    height: 581px;
+}
+
+.logo {
+    margin-left: 120px;
+    margin-top: 4px;
+}
+nav {
+ margin-top: 33px;
+ margin-right: 83px;
+}
+nav:first-of-type {
+    margin-left: auto;
+}
+
+nav:last-of-type {
+    margin-right: 121px;
+}
