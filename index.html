@@ -4,30 +4,90 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
   </head>
 
-  <body class='desktop-1'>
+  <body>
     <header class="header">
-      <div class="logo">
-        <img src="img/logo.png" width="130" height="82.51" alt="Anne sweet">
+      <div class="container"> 
+
+       <div class="container_wrap">
+        <div class="logo">
+          <img src="img/logo2.png" width="130" height="82.51" alt="Anne sweet">
         </div>
-         <nav><a href="#articles">Статьи</a></nav>
-         <nav><a href="#blog">Обо мне</a></nav>
-         <nav><a href="#portfolio">Портфолио</a></nav>
-         <nav><a href="#write">Написать мне</a></nav>
+          <nav class='header__nav'>
+            <ul class='header__list'>
+              <li class='header__item'>
+                <a href="#articles" class='header__link'>Статьи</a>
+              </li>
+              <li class='header__item'>
+                <a href="#blog" class='header__link'>Обо мне</a>
+              </li>
+              <li class='header__item'>
+                <a href="#portfolio" class='header__link'>Портфолио</a>
+              </li>
+              <li class='header__item'>
+                <a href="#write" class='header__link'>Написать мне</a>
+              </li>
+            </ul>
+          </nav>
+       </div>
+      </div>
     </header>
+
     <main>
-      <article id='articles'><section class="articles">
 
-      <h2 class="">Все статьи</h2>
-      <p>
-
-      </p>
-
+      <div class="container"> 
+        <section class="articles" id='articles'>
+          <header class='articles__header'>
+          <h2 class="">Все статьи</h2>
+           <select>
+             <option hidden>Выберите тему</option>
+             <option value="">Город</option>
+             <option value="">Книги</option>
+             <option value="">Путешествия</option>
+             <option value="">Рецепты</option>
+             <option value="">Фотографии</option>
+           </select>
+          </header>
+          <div class='articles__content'>
+            <a href="" class="articles__link">
+              <img src="img/Article-1.png"  alt="" class="image-1">
+              <h3>Путешествие в Берлин в августе </h3>
+              <p>Летний месяц я провела в столице Германии <br>
+                вместе с друзьями. И вот как это было!</p>
+            </a>
+            <a href="" class="articles__link">
+              <img src="img/Article-2.png" alt="" class="image-2">
+              <h3>Где выпить колдбрю в Москве</h3>
+              <p>Собрала для вас список любимых кофеен,<br>
+                где подают лучший летний напиток.</p>
+            </a>
+            <a href="" class="articles__link">
+              <img src="img/Article-3.png"  alt="" class="image-3">
+              <h3>Прочитано: книжные рекомендации</h3>
+              <p>Рассказываю о прочитанных за последнее<br>
+                 время книгах: фавориты и провалы.</p>
+            </a>
+            <a href="" class="articles__link">
+              <img src="img/Article-4.png"  alt="" class="image-4">
+              <h3>Снимки на плёнку</h3>
+              <p>Поделилась с вами весенними фотографиями, <br>
+                и секретами удачных снимков.</p>
+            </a>
+            <a href="" class="articles__link">
+              <img src="img/Article-5.png" alt="" class="image-5">
+              <h3>Домашний чизкейк</h3>
+              <p>Что может быть лучше чизкейка с сезонными<br>
+                ягодами? Только домашний чизкейк!</p>
+            </a>
+            </div>
     </section>
-  </article>
-    <article id='blog'></article><section >
-      <h2 class="blog">Обо мне</h2>
+     </div> 
+
+   <div class="container"> 
+    <section id='blog'  class="blog">
+      <h2 class=''>Обо мне</h2>
       
       <p>Всем привет! Меня зовут Аня, и это мой личный блог.<br>
         Здесь ты найдёшь рассказы о моих путешествиях, снимки<br>
@@ -54,9 +114,11 @@
         себя. 
       </p>
     </section>
-  </article>
-  <article id='portfolio'>
-    <section class="portfolio">
+  
+    </div> 
+    <div class="container"> 
+  
+    <section class="portfolio" id='portfolio'>
       <h2 class="">Портфолио</h2>
 
       <h3></h3>
@@ -65,7 +127,9 @@
       <h3></h3>
       <p></p>
     </section>
-</article>
+
+</div>
+<div class="container"> 
 <article id='write'>
     <section class="write">
       <h2 class="">Написать мне</h2>
@@ -75,11 +139,13 @@
 
       <h3></h3>
       <p></p>
-    </section>
-</article>
-</main>>
+      </section>
+      </article>
+      </div>
+    </main>>
     <footer class="footer">
       
     </footer>
-  </body>
+  -->
+</body>
 </html>
