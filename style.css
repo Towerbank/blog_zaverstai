@@ -2,21 +2,25 @@
 body {
     margin: 0 auto; 
     max-width: 1440px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 18px;
-    font-weight: normal;
     }
    
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Spectral SC', serif;
 */
+a {
+    color: #2E2F22; /* Цвет ссылок */
+   }
+a:visited {
+    color: #2E2F22; /* Цвет посещенных ссылок */
+   }
+a:active {
+    color: #2E2F22; /* Цвет активных ссылок */
+   }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-   
 }
 
 .container_wrap {
@@ -39,7 +43,11 @@ font-family: 'Spectral SC', serif;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2E2F22;
 }
 .header__item {
     margin-right: 83px;
@@ -62,11 +70,28 @@ font-family: 'Spectral SC', serif;
 }
 
 h2 {
-    font-family: Spectral SC;
+    font-family: 'Spectral SC';
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
+    color: #2E2F22;
 }
+
+.articles__select{
+    background: #D7D1C9;
+    border-radius: 10px;
+    width: 203px;
+    height: 46px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
+    padding-left: 20px;
+}
+
+
 .articles__content {
     display: flex;
     flex-wrap: wrap;
@@ -77,14 +102,40 @@ h2 {
     text-decoration: none;
 }
 
-.article__link p {
-    font-family: Spectral SC;
-    font-size: 18px;
+.link-1 h3 {
+    font-family: 'Spectral SC';
     font-style: normal;
-    font-weight: 700;
-    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2F22;
 }
-.article__link img {
+.link-1 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+.articles__datatag {
+    DISPLAY: FLEX;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(46, 47, 34, 0.7);
+}
+.link-2 {
+    margin-top: 62px;
+}
+.articles__image-3{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.articles__content img {
     border-radius: 10px;
 }
 
