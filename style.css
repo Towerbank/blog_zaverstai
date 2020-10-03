@@ -27,7 +27,7 @@ a:active {
     margin: 0 auto;
 }
 
-.container_wrap {
+.container-wrap {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
