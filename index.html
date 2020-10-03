@@ -1,102 +1,105 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container"> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&family=Spectral+SC:wght@700&display=swap"
+    rel="stylesheet">
+</head>
 
-       <div class="container_wrap">
+<body>
+  <header class="header">
+    <div class="container">
+
+      <div class="container_wrap">
         <div class="logo">
           <img src="img/logo2.png" width="130" height="82.51" alt="Anne sweet">
         </div>
-          <nav class='header__nav'>
-            <ul class='header__list'>
-              <li class='header__item'>
-                <a href="#articles" class='header__link'>Статьи</a>
-              </li>
-              <li class='header__item'>
-                <a href="#blog" class='header__link'>Обо мне</a>
-              </li>
-              <li class='header__item'>
-                <a href="#portfolio" class='header__link'>Портфолио</a>
-              </li>
-              <li class='header__item'>
-                <a href="#write" class='header__link'>Написать мне</a>
-              </li>
-            </ul>
-          </nav>
-       </div>
+        <nav class='header__nav'>
+          <ul class='header__list'>
+            <li class='header__item'>
+              <a href="#articles" class='header__link'>Статьи</a>
+            </li>
+            <li class='header__item'>
+              <a href="#blog" class='header__link'>Обо мне</a>
+            </li>
+            <li class='header__item'>
+              <a href="#portfolio" class='header__link'>Портфолио</a>
+            </li>
+            <li class='header__item'>
+              <a href="#write" class='header__link'>Написать мне</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
+  <main>
 
-      <div class="container"> 
-        <section class="articles" id='articles'>
-          <header class='articles__header'>
+    <div class="container">
+      <section class="articles" id='articles'>
+        <header class='articles__header'>
           <h2 class="">Все статьи</h2>
-           <select class = 'articles__select'>
-             <option hidden>Выберите тему</option>
-             <option value="">Город</option>
-             <option value="">Книги</option>
-             <option value="">Путешествия</option>
-             <option value="">Рецепты</option>
-             <option value="">Фотографии</option>
-           </select>
-          </header>
-          <div class='articles__content'>
-            <a href="" class="articles__link link-1">
-              <img src="img/Article-1.png"  alt="" class="articles__image-1">
-              <h3>Путешествие в Берлин в августе </h3>
-              <p>Летний месяц я провела в столице Германии<br>
-                 вместе с друзьями. И вот как это было!</p>
-                 <div class='articles__datatag'>
-                  Теги:путешествия
-                 <time datetime="2020-09-29">29.09.2020</time>
-                 </div>
-            </a>
-            <a href="" class="articles__link link-1">
-              <img src="img/Article-2.png" alt="" class="articles__image-2">
-              <h3>Где выпить колдбрю в Москве</h3>
-              <p>Собрала для вас список любимых кофеен,<br>
-                где подают лучший летний напиток.</p>
-                <div class='articles__datatag'>
-                  Теги:город
-                 <time datetime="2020-07-24">24.07.2020</time>
-                 </div>
-            </a>  
-            <a href="" class="articles__link link-1">
-              <img src="img/Article-3.png"  alt="" class="articles__image-3">
-              <h3>Прочитано: книжные рекомендации</h3>
-              <p>Рассказываю о прочитанных за последнее<br>
-                 время книгах: фавориты и провалы.</p>
-                 <div class='articles__datatag'>
-                  Теги:книги
-                 <time datetime="2020-07-15">15.07.2020</time>
-                 </div>
-            </a>
-            <a href="" class="articles__link link-2">
-              <img src="img/Article-4.png"  alt="" class="articles__image-4">
-              <h3>Снимки на плёнку</h3>
-              <p>Поделилась с вами весенними фотографиями, <br>
-                и секретами удачных снимков.</p>
-            </a>
-            <a href="" class="articles__link link-2">
-              <img src="img/Article-5.png" alt="" class="articles__image-5">
-              <h3>Домашний чизкейк</h3>
-              <p>Что может быть лучше чизкейка с сезонными<br>
-                ягодами? Только домашний чизкейк!</p>
-            </a>
+          <select class='articles__select'>
+            <option hidden>Выберите тему</option>
+            <option value="">Город</option>
+            <option value="">Книги</option>
+            <option value="">Путешествия</option>
+            <option value="">Рецепты</option>
+            <option value="">Фотографии</option>
+          </select>
+        </header>
+        <div class='articles__content'>
+          <a href="" class="articles__link link-1">
+            <img src="img/Article-1.png" alt="" class="articles__image-1">
+            <h3>Путешествие в Берлин в августе </h3>
+            <p>Летний месяц я провела в столице Германии<br>
+              вместе с друзьями. И вот как это было!</p>
+            <div class='articles__datatag'>
+              Теги:путешествия
+              <time datetime="2020-09-29">29.09.2020</time>
             </div>
-    </section>
-     </div> 
-      <!--
+          </a>
+          <a href="" class="articles__link link-1">
+            <img src="img/Article-2.png" alt="" class="articles__image-2">
+            <h3>Где выпить колдбрю в Москве</h3>
+            <p>Собрала для вас список любимых кофеен,<br>
+              где подают лучший летний напиток.</p>
+            <div class='articles__datatag'>
+              Теги:город
+              <time datetime="2020-07-24">24.07.2020</time>
+            </div>
+          </a>
+          <a href="" class="articles__link link-1">
+            <img src="img/Article-3.png" alt="" class="articles__image-3">
+            <h3>Прочитано: книжные рекомендации</h3>
+            <p>Рассказываю о прочитанных за последнее<br>
+              время книгах: фавориты и провалы.</p>
+            <div class='articles__datatag'>
+              Теги:книги
+              <time datetime="2020-07-15">15.07.2020</time>
+            </div>
+          </a>
+          <a href="" class="articles__link link-2">
+            <img src="img/Article-4.png" alt="" class="articles__image-4">
+            <h3>Снимки на плёнку</h3>
+            <p>Поделилась с вами весенними фотографиями, <br>
+              и секретами удачных снимков.</p>
+          </a>
+          <a href="" class="articles__link link-2">
+            <img src="img/Article-5.png" alt="" class="articles__image-5">
+            <h3>Домашний чизкейк</h3>
+            <p>Что может быть лучше чизкейка с сезонными<br>
+              ягодами? Только домашний чизкейк!</p>
+          </a>
+        </div>
+      </section>
+    </div>
+    <!--
    <div class="container"> 
     <section id='blog'  class="blog">
       <h2 class=''>Обо мне</h2>
@@ -159,5 +162,6 @@
       
        </footer>
         -->
-  </body>
+</body>
+
 </html>
