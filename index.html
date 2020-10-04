@@ -53,7 +53,7 @@
             <option value="">Фотографии</option>
           </select>
         </header>
-        <div class='articles__content'>
+        <div class='articles__content-1'>
           <a href="" class="articles__link link-1">
             <img src="img/Article-1.png" alt="" class="articles__img">
             <div class='articles__main'>
@@ -90,33 +90,33 @@
               <time datetime="2020-07-15">15.07.2020</time>
             </div>
           </a>
+        </div>
+        <div class='articles__content-2'>
           <a href="" class="articles__link link-2">
-            <img src="img/Article-4.png" alt="" class="articles__img">
-            <div class='articles__main main-4'>
+            <div class='articles__main'>
               <h3 class='articles__title'>Снимки на плёнку</h3>
               <p class='articles__description'>Поделилась с вами весенними фотографиями, <br>
                 и секретами удачных снимков.</p>
             </div>
-            <div class='articles__bottom bottom-4'>
+            <div class='articles__bottom'>
               <span class='articles__tags'>Теги: фотографии</span>
               <time datetime="2020-06-29">29.06.2020</time>
             </div>
           </a>
-          <a href="" class="articles__link link-2">
-            <img src="img/Article-5.png" alt="" class="articles__img">
-            <div class='articles__main main-5'>
+          <a href="" class="articles__link link-3">
+            <div class='articles__main'>
               <h3 class='articles__title'>Домашний чизкейк</h3>
               <p class='articles__description'>Что может быть лучше чизкейка с сезонными<br>
                 ягодами? Только домашний чизкейк!</p>
             </div>
-            <div class='articles__bottom bottom-5'>
+            <div class='articles__bottom'>
               <span class='articles__tags'>Теги: рецепты</span>
               <time datetime="2020-06-24">24.06.2020</time>
             </div>
           </a>
         </div>
 
-        <input type="button" value="Показать еще" class="articles__button">
+        <input type="button" value="Показать еще" class="button">
       </section>
     </div>
 
@@ -161,32 +161,70 @@
     <div class="container">
 
       <section class="portfolio" id='portfolio'>
-        <h2 class="">Портфолио</h2>
 
-        <h3></h3>
-        <p></p>
-
-        <h3></h3>
-        <p></p>
+        <h2 class="portfolio__title">Портфолио</h2>
+        <div class="portfolio__posts">
+          <span class='portfolio__column  post-1'>
+            <h3 class='portfolio__subtitle'>Блог HTML Academy</h3>
+            <h4 class='portfolio__subtitle-sub'>«Как учиться продуктивно»</h4>
+            <p class='portfolio__paragraph'>Про основные методы обучения,<br>
+              которые помогут быстро и надолго<br>
+              запомнить информацию.</p>
+          </span>
+          <span class='portfolio__column  post-2'>
+            <h3 class='portfolio__subtitle'>Журнал «LNK»</h3>
+            <h4 class='portfolio__subtitle-sub'>«Зачем поцели нужны человеку?<br>
+              И как ие они бывают»</h4>
+            <p class='portfolio__paragraph'>Поцелуи — повсеместная ежедневная<br>
+              практика. Но зачем люди целуются?<br>
+              Какие смыслы вкладывают в этот ритуал?<br>
+              И где корни этой практики?</p>
+          </span>
+          <span class='portfolio__column  post-3'>
+            <h3 class='portfolio__subtitle'>Журнал «Т — Л»</h3>
+            <h4 class='portfolio__subtitle-sub'>«Советы по эффективной<br>
+              удалённой работе»</h4>
+            <p class='portfolio__paragraph'>Поделилась лайфхаками, которые помогают<br>
+              мне работать продуктивно из дома. </p>
+          </span>
+        </div>
+        <input type="button" value="Показать еще" class="button">
       </section>
 
     </div>
     <div class="container">
-      <article id='write'>
-        <section class="write">
-          <h2 class="">Написать мне</h2>
-
-          <h3></h3>
-          <p></p>
-
-          <h3></h3>
-          <p></p>
+      <div class='container__write'>
+        <section class="write" id='write'>
+          <h2 class="write__title">Написать мне</h2>
+          <fieldset class='write__field'>
+            <div class='write__data'>
+              <span class='write__name'>
+                <label for="name">Ваше имя</label><br>
+                <input type='text' class="write__input" name='name' id='name' placeholder='Иван Иванов'>
+              </span>
+              <span class='write__email'>
+                <label for="email">Email</label><br>
+                <input type="email" class="write__input" id="email" name="email" placeholder='google@gmail.com'>
+              </span>
+            </div>
+            <div class='write__comment-field'>
+              <label for='comment-field'>Сообщение</label>
+              <textarea type="text" class="write__input write__comment" id="comment-field"
+                placeholder="Напишите здесь ваше сообщение."></textarea>
+            </div>
+            <input type="submit" class='write__add' value="Отправить">
+          </fieldset>
         </section>
-      </article>
+      </div>
     </div>
   </main>
   <footer class="footer">
-
+    <ul class="footer__list">
+      <li class='footer__link'>ВК</li>
+      <li class='footer__link'>Телеграм</li>
+      <li class='footer__link'>Инстаграм</li>
+      <li class='footer__link'>Твиттер</li>
+    </ul>
   </footer>
 
 </body>
