@@ -40,6 +40,12 @@ a:active {
     margin: 0;
 }
 
+.header-2 {
+    background: url('img/dekstop-2.png') no-repeat center;
+    height: 581px;
+    margin: 0;
+}
+
 .logo {
     margin-top: 4px;
 }
