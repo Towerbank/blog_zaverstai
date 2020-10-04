@@ -180,34 +180,50 @@ h2 {
     font-size: 16px;
     line-height: 26px;
     color: rgba(255, 255, 255, 0.7);
-    DISPLAY: FLEX;
-    align-items: center;
-    position: relative;
-    top: -221px;
-    right: -82px;
+
 }
 
-.link-2 .articles__tags {
-    margin-right: 210px;
+.link-2 .bottom-4 {
+    position: absolute;
+    left: 205px;
+    top: 1735px;
 }
 
-.link-2 .articles__main {
-    position: relative;
-    top: -217px;
-    right: -82px;
+.link-2 .bottom-5 {
+    position: absolute;
+    left: 815px;
+    top: 1735px;
 }
 
-.articles__title {
-    margin-bottom: -10px;
+.link-2 .articles__description {
+    margin-top: -15px;
+}
+
+.bottom-5 .articles__tags {
+    margin-right: 230px;
+}
+
+.bottom-4 .articles__tags {
+    margin-right: 205px;
+}
+
+
+.link-2 .main-4 {
+    position: absolute;
+    left: 205px;
+    top: 1609px;
+}
+
+.link-2 .main-5 {
+    position: absolute;
+    left: 815px;
+    top: 1609px;
 }
 
 .articles__button {
-    display: flex;
-    justify-content: center;
-    margin-top: -60px;
-}
-
-.articles__button-1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
@@ -220,11 +236,14 @@ h2 {
     line-height: 22px;
     color: #202117;
     background: #E5E5E5;
+    margin-top: 104px;
 }
+
 
 .blog__title {
     margin-top: 85px;
     text-align: center;
+    margin-bottom: 51px;
 }
 
 .blog__about-me {
@@ -233,11 +252,50 @@ h2 {
 }
 
 .blog__post {
-    display: flex;
-    flex-direction: column;
+    margin-top: 25px;
     margin-left: 27px;
+    color: #2E2F22;
+
 }
 
 .blog__img {
     border-radius: 10px;
+    max-height: 693px;
+    max-width: 590px;
+}
+
+/*
+.blog__think::after {
+    content: '';
+    width: 214.15px;
+    height: 0px;
+    border: 2px solid #D7D1C9;
+    background-color: #D7D1C9;
+    transform: rotate(-90deg);
+    margin-left: -127px;
+
+
+}
+*/
+
+.blog__paragraphs {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.blog__paragraph {
+    padding-bottom: 10px;
+}
+
+.blog__think {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #2E2F22;
+    padding-top: 50px;
 }
