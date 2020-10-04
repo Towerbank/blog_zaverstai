@@ -222,7 +222,6 @@ h2 {
     margin: 0 auto;
     text-align: center;
     border: 1px solid #202117;
-    box-sizing: border-box;
     border-radius: 10px;
     width: 224px;
     height: 46px;
@@ -230,7 +229,6 @@ h2 {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
     color: #202117;
     background: #E5E5E5;
     margin-top: 104px;
@@ -445,14 +443,13 @@ textarea {
 
 }
 
-.write__add {
+.write__button {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
     width: 224px;
     height: 46px;
     border: 1px solid #202117;
-    box-sizing: border-box;
     border-radius: 10px;
 }
 
@@ -471,4 +468,58 @@ textarea {
     justify-content: space-between;
     align-items: center;
     padding-top: 65px;
+}
+
+.article__container {
+    max-width: 998px;
+    margin-left: 119px;
+}
+
+.article_title {
+    font-family: 'Spectral SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+}
+
+.article__bottom {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(46, 47, 34, 0.7);
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.article__tags {
+    margin-right: 18px;
+
+}
+
+.article__paragraphs {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+.article__figure {
+    margin: 0 auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #2E2F22;
+    padding-bottom: 20px;
+}
+
+.article__img {
+    margin-top: 20px;
 }
