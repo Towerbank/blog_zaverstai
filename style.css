@@ -104,6 +104,7 @@ h2 {
     line-height: 22px;
     color: #2E2F22;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 
@@ -232,6 +233,7 @@ h2 {
     color: #202117;
     background: #E5E5E5;
     margin-top: 104px;
+    cursor: pointer;
 }
 
 
@@ -451,6 +453,7 @@ textarea {
     height: 46px;
     border: 1px solid #202117;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .footer {
@@ -469,6 +472,13 @@ textarea {
     align-items: center;
     padding-top: 65px;
 }
+
+.footer__link {
+    text-decoration: none;
+}
+
+
+
 
 .article__container {
     max-width: 998px;
@@ -522,4 +532,77 @@ textarea {
 
 .article__img {
     margin-top: 20px;
+}
+
+.article__like-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article__like {
+    padding: 12px 10px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.article__likes {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #2E2F22;
+    margin-left: 14px;
+}
+
+.article__social-link {
+    margin-left: 32px;
+}
+
+h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #2E2F22;
+}
+
+.article__link {
+    text-decoration: none;
+    display: flex;
+}
+
+.article__arrow {
+    margin-left: 26px;
+    margin-top: 5px;
+}
+
+.comments__container {
+    max-width: 793px;
+    margin-left: 121px;
+    margin-top: 65px;
+    background: #ECE1E1;
+    border-radius: 10px;
+}
+
+.comments__form {}
+
+.comments__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 793px;
+    height: 429px;
+}
+
+.comments__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
