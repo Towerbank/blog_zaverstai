@@ -117,16 +117,52 @@
             </div>
         </section>
         <section class='comments__container'>
-            <div class='comments__form'>
-                <span class='comments__list'>
-                    <ul class='comments__lists'>
-                        <li class="comments__comment">Отличная статья! Спасибо.</li>
-                        <li class="comments__comment">Отличный текст, добавила в закладки.</li>
-                        <li class="comments__comment">Основательный материал! Можешь посоветовать какие-то книги на эту
-                            тему?</li>
+            <div class='comments__wrap'>
+                <div class='comments__field'>
+                    <ul class='comments__list'>
+                        <li class="comments__comment">
+                            <span class='comments__user'>
+                                <img src='img/Com-1.png' class='comments__img'>
+                                <p class='comments__name'>Иван Петров</p>
+                            </span>
+                            <p class='comments__text'>Отличная статья! Спасибо.</p>
+                        </li>
+                        <li class="comments__comment">
+                            <span class='comments__user'>
+                                <img src='img/Com-2.png' class='comments__img'>
+                                <p class='comments__name'>Ксения Ксения</p>
+                            </span>
+                            <p class='comments__text'>Отличный текст, добавила в закладки.</p>
+                        </li>
+                        <li class="comments__comment">
+                            <span class='comments__user'>
+                                <img src='img/Com-3.png' class='comments__img'>
+                                <p class='comments__name'>Иван Иванов</p>
+                            </span>
+                            <p class='comments__text'>Основательный материал! Можешь посоветовать какие-то книги на эту
+                                тему?</p>
+                        </li>
                     </ul>
-                </span>
-                <form action="https://article.html" method="post" class="comments__comment-form" cols='5'>
+                </div>
+                <form class='comments__form' name="comment" action="comment." method="post">
+                    <div class='comments__input'>
+                        <p>
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder='Имя' value="">
+                        </p>
+                        <p>
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Почта">
+                        </p>
+                    </div>
+                    <p>
+                        <textarea name="comments__area"></textarea>
+                    </p>
+                    <p>
+                        <input type="hidden" name="page_id" value="150" />
+                        <input type="submit" value="Отправить" />
+                    </p>
+                </form>
             </div>
         </section>
 

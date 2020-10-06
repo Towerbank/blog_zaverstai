@@ -105,6 +105,7 @@ h2 {
     color: #2E2F22;
     padding-left: 20px;
     cursor: pointer;
+    outline: none;
 }
 
 
@@ -368,10 +369,12 @@ h2 {
 }
 
 
+/* Стили для раздела "Написать мне"*/
+
 .container__write {
     max-width: 996px;
     margin: 0 auto;
-    height: 741px;
+    max-height: 741px;
 }
 
 .write {
@@ -388,11 +391,12 @@ h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 28px;
     color: #2E2F22;
-    background: url('img/write1.png') no-repeat;
+    background: url('img/write.png') no-repeat;
     border-radius: 10px;
+    border: none;
     height: 637px;
+    background-size: contain;
 }
 
 .write__comment-field {
@@ -404,32 +408,17 @@ h2 {
 
 .write__data {
     display: flex;
+    justify-content: center;
     margin-top: 53px;
     margin-bottom: 20px;
-    margin-left: 81px;
 }
 
 .write__email {
     margin-left: 20px;
 }
 
-input {
-    width: 407px;
-    height: 63px;
-    background: rgba(255, 255, 255, 0.4);
-    border: 1px solid #202117;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
 
-textarea {
-    background: rgba(255, 255, 255, 0.4);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.write__input {
+.write__text {
     padding: 20px 20px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -437,12 +426,23 @@ textarea {
     font-size: 16px;
     line-height: 22px;
     color: #202117;
+    opacity: 0.7;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.write__input {
+    margin-top: 12px;
+    width: 407px;
+    height: 63px;
 }
 
 .write__comment {
+    margin-top: 12px;
     width: 837px;
     height: 293px;
-
 }
 
 .write__button {
@@ -454,6 +454,16 @@ textarea {
     border: 1px solid #202117;
     border-radius: 10px;
     cursor: pointer;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202117;
 }
 
 .footer {
@@ -587,21 +597,65 @@ h1 {
     max-width: 793px;
     margin-left: 121px;
     margin-top: 65px;
-    background: #ECE1E1;
-    border-radius: 10px;
 }
 
-/*.comments__form {}*/
+.comments__field {
+    border-radius: 10px;
+    background: #ECE1E1;
+    width: 793px;
+    height: 429px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 77px;
+}
 
 .comments__list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 793px;
-    height: 429px;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .comments__comment {
     list-style: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
+}
+
+.comments__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+.comments__user {
+    display: flex;
+    font-weight: bold;
+}
+
+.comments__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2E2F22;
+    margin-left: 81px;
+}
+
+.comments__form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comments__area {
+    width: 406px;
+    height: 208px;
+    border: 1px solid #2E2F22;
+    border-radius: 10px;
 }
