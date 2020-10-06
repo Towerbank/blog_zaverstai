@@ -144,24 +144,30 @@
                         </li>
                     </ul>
                 </div>
+                <h3 class='comments__title'>Оставить комментарий</h3>
                 <form class='comments__form' name="comment" action="comment." method="post">
-                    <div class='comments__input'>
+                    <div class='comments__inputs'>
                         <p>
                             <label for="name"></label>
-                            <input type="text" id="name" name="name" placeholder='Имя' value="">
+                            <input type="text" id="name" name="name" placeholder='Имя' value=""
+                                class='comment__input input-area' required>
                         </p>
                         <p>
                             <label for="email"></label>
-                            <input type="email" id="email" name="email" placeholder="Почта">
+                            <input type="email" id="email" name="email" placeholder="Почта"
+                                class='comment__input input-area' required>
                         </p>
+                        <div>
+                            <input type="hidden" name="page_id" value="150">
+                            <input type="submit" value="Отправить" class='comments__button'>
+                        </div>
                     </div>
-                    <p>
-                        <textarea name="comments__area"></textarea>
-                    </p>
-                    <p>
-                        <input type="hidden" name="page_id" value="150" />
-                        <input type="submit" value="Отправить" />
-                    </p>
+                    <div class=''>
+                        <label for='comment-field'></label>
+                        <textarea name="comments__area" class='comments__area comment__input' id='comment-field'
+                            placeholder='Написать комментарий...'></textarea>
+                    </div>
+
                 </form>
             </div>
         </section>
