@@ -94,7 +94,7 @@ a:active {
 }
 
 .articles__select {
-    background: #D7D1C9;
+    border: none;
     border-radius: 10px;
     width: 203px;
     height: 46px;
@@ -102,12 +102,15 @@ a:active {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
     color: #2E2F22;
     padding-left: 20px;
     cursor: pointer;
+    appearance: none;
     outline: none;
+    background: url('img/Polygon_1.svg') no-repeat 90% 50% #D7D1C9;
 }
+
+
 
 /*Общее стили в новостях*/
 .articles__img {
