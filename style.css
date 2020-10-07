@@ -87,12 +87,13 @@ a:active {
 
 }
 
-.articles__title {
+h2 {
     font-family: 'Spectral SC', serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     color: #2E2F22;
+    font-weight: bold;
 }
 
 .articles__select {
