@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title></title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&family=Spectral+SC:wght@700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Spectral+SC:wght@700&display=swap"
         rel="stylesheet">
 </head>
 
@@ -116,59 +116,58 @@
             </a>
             </div>
         </section>
-        <section class='comments__container'>
-            <div class='comments__wrap'>
-                <div class='comments__field'>
-                    <ul class='comments__list'>
-                        <li class="comments__comment">
-                            <span class='comments__user'>
-                                <img src='img/Com-1.png' class='comments__img'>
-                                <p class='comments__name'>Иван Петров</p>
-                            </span>
-                            <p class='comments__text'>Отличная статья! Спасибо.</p>
-                        </li>
-                        <li class="comments__comment">
-                            <span class='comments__user'>
-                                <img src='img/Com-2.png' class='comments__img'>
-                                <p class='comments__name'>Ксения Ксения</p>
-                            </span>
-                            <p class='comments__text'>Отличный текст, добавила в закладки.</p>
-                        </li>
-                        <li class="comments__comment">
-                            <span class='comments__user'>
-                                <img src='img/Com-3.png' class='comments__img'>
-                                <p class='comments__name'>Иван Иванов</p>
-                            </span>
-                            <p class='comments__text'>Основательный материал! Можешь посоветовать какие-то книги на эту
-                                тему?</p>
-                        </li>
-                    </ul>
-                </div>
-                <h3 class='comments__title'>Оставить комментарий</h3>
-                <form class='comments__form' name="comment" action="comment." method="post">
-                    <div class='comments__inputs'>
-                        <p>
-                            <label for="name"></label>
-                            <input type="text" id="name" name="name" placeholder='Имя' value=""
-                                class='comment__input input-area' required>
-                        </p>
-                        <p>
-                            <label for="email"></label>
-                            <input type="email" id="email" name="email" placeholder="Почта"
-                                class='comment__input input-area' required>
-                        </p>
-                        <div>
-                            <input type="submit" value="Отправить" class='comments__button'>
-                        </div>
-                    </div>
-                    <div class=''>
-                        <label for='comments-area'></label>
-                        <textarea name="comments__area" class='comments__area comment__input' id='comments-area'
-                            placeholder='Написать комментарий...' minlength='10' maxlength='200' required></textarea>
-                    </div>
 
-                </form>
+        <section class='comments__container'>
+            <div class='comments__field'>
+                <ul class='comments__list'>
+                    <li class="comments__comment">
+                        <span class='comments__user'>
+                            <img src='img/Com-1.png' class='comments__img'>
+                            <p class='comments__name'>Иван Петров</p>
+                        </span>
+                        <p class='comments__text'>Отличная статья! Спасибо.</p>
+                    </li>
+                    <li class="comments__comment">
+                        <span class='comments__user'>
+                            <img src='img/Com-2.png' class='comments__img'>
+                            <p class='comments__name'>Ксения Ксения</p>
+                        </span>
+                        <p class='comments__text'>Отличный текст, добавила в закладки.</p>
+                    </li>
+                    <li class="comments__comment">
+                        <span class='comments__user'>
+                            <img src='img/Com-3.png' class='comments__img'>
+                            <p class='comments__name'>Иван Иванов</p>
+                        </span>
+                        <p class='comments__text'>Основательный материал! Можешь посоветовать какие-то книги на эту
+                            тему?</p>
+                    </li>
+                </ul>
             </div>
+            <h3 class='comments__title'>Оставить комментарий</h3>
+            <form class='comments__form' name="comment" action="comment." method="post">
+                <div class='comments__inputs'>
+                    <p>
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder='Имя' value=""
+                            class='comment__input input-area' required>
+                    </p>
+                    <p>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Почта"
+                            class='comment__input input-area' required>
+                    </p>
+                    <div>
+                        <input type="submit" value="Отправить" class='comments__button'>
+                    </div>
+                </div>
+                <div class=''>
+                    <label for='comments-area'></label>
+                    <textarea name="comments__area" class='comments__area comment__input' id='comments-area'
+                        placeholder='Написать комментарий...' minlength='10' maxlength='200' required></textarea>
+                </div>
+
+            </form>
         </section>
 
     </main>

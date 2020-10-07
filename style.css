@@ -3,10 +3,6 @@ body {
     max-width: 1440px;
 }
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Spectral SC', serif;
-*/
 a {
     color: #2E2F22;
     /* Цвет ссылок */
@@ -22,11 +18,13 @@ a:active {
     /* Цвет активных ссылок */
 }
 
+/*Общий контейнер*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/*Контейнер Хедера*/
 .container-wrap {
     display: flex;
     align-items: center;
@@ -34,6 +32,7 @@ a:active {
     justify-content: space-between;
 }
 
+/*Стили фона Хедера и Хедера2*/
 .header {
     background: url('img/dekstop-1.png') no-repeat center;
     height: 581px;
@@ -46,6 +45,7 @@ a:active {
     margin: 0;
 }
 
+/*Стил Хедера*/
 .logo {
     margin-top: 4px;
 }
@@ -75,6 +75,7 @@ a:active {
 }
 
 
+/*Стили Новостных постов*/
 
 .articles__header {
     display: flex;
@@ -84,7 +85,7 @@ a:active {
 
 }
 
-h2 {
+.articles__title {
     font-family: 'Spectral SC', serif;
     font-size: 36px;
     font-style: normal;
@@ -108,7 +109,17 @@ h2 {
     outline: none;
 }
 
+/*Общее стили в новостях*/
+.articles__img {
+    border-radius: 10px;
+}
 
+.articles__link {
+    text-decoration: none;
+}
+
+
+/*Стили первых 3х новостей*/
 .articles__content-1 {
     display: flex;
     justify-content: space-between;
@@ -116,11 +127,7 @@ h2 {
     margin-bottom: 62px;
 }
 
-.articles__link {
-    text-decoration: none;
-}
-
-.link-1 .articles__title {
+.link .articles__subtitle {
     font-family: 'Spectral SC', serif;
     font-style: normal;
     font-weight: bold;
@@ -129,7 +136,7 @@ h2 {
     color: #2E2F22;
 }
 
-.link-1 .articles__description {
+.link .articles__description {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -138,8 +145,8 @@ h2 {
     color: #2E2F22;
 }
 
-.link-1 .articles__bottom {
-    DISPLAY: FLEX;
+.link .articles__bottom {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
@@ -150,15 +157,12 @@ h2 {
     color: rgba(46, 47, 34, 0.7);
 }
 
-.articles__img {
-    border-radius: 10px;
-}
-
 .article-3 {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
+/*Стили нижней строки новостей */
 .articles__content-2 {
     display: flex;
     height: 552px;
@@ -169,13 +173,13 @@ h2 {
     flex: 0 1 50%;
 }
 
-.link-2 {
+.link-1 {
     background: url('img/Article-4.png') no-repeat;
     border-radius: 10px;
     margin-right: 20px;
 }
 
-.link-3 {
+.link-2 {
     background: url('img/Article-5.png') no-repeat;
     border-radius: 10px;
 }
@@ -185,7 +189,7 @@ h2 {
 }
 
 
-.articles__content-2 .articles__title {
+.articles__content-2 .articles__subtitle {
     font-family: 'Spectral SC', serif;
     font-style: normal;
     font-weight: bold;
@@ -219,6 +223,8 @@ h2 {
 }
 
 
+/*Ктопка для новостей и потфолио*/
+
 .button {
     display: block;
     margin: 0 auto;
@@ -237,6 +243,8 @@ h2 {
 }
 
 
+/*Стили для Блога*/
+
 .blog__title {
     margin-top: 85px;
     text-align: center;
@@ -248,6 +256,12 @@ h2 {
 
 }
 
+.blog__img {
+    border-radius: 10px;
+    max-height: 693px;
+    max-width: 590px;
+}
+
 .blog__post {
     margin-top: 25px;
     margin-left: 27px;
@@ -255,13 +269,7 @@ h2 {
 
 }
 
-.blog__img {
-    border-radius: 10px;
-    max-height: 693px;
-    max-width: 590px;
-}
-
-/*
+/* Попытка сделать вертикальную линию
 .blog__think::after {
     content: '';
     width: 214.15px;
@@ -270,8 +278,6 @@ h2 {
     background-color: #D7D1C9;
     transform: rotate(-90deg);
     margin-left: -127px;
-
-
 }
 */
 
@@ -296,6 +302,9 @@ h2 {
     color: #2E2F22;
     padding-top: 50px;
 }
+
+
+/*Стили Портфолио*/
 
 .portfolio {
     margin-top: 83px;
@@ -368,7 +377,7 @@ h2 {
 }
 
 
-/* Стили для раздела "Написать мне"*/
+/* Стили "Написать мне"*/
 
 .container__write {
     max-width: 996px;
@@ -413,10 +422,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-.write__email {
-    margin-left: 20px;
-}
-
 
 .write__text {
     padding: 20px 20px;
@@ -432,6 +437,10 @@ h2 {
     box-sizing: border-box;
     border-radius: 10px;
     outline: none;
+}
+
+.write__email {
+    margin-left: 20px;
 }
 
 .write__input {
@@ -466,6 +475,9 @@ h2 {
 
 }
 
+
+/*Стили общего Футера*/
+
 .footer {
     margin-top: 81px;
     width: 1440px;
@@ -490,11 +502,13 @@ h2 {
 
 
 
+/*Контейнер Новостной страницы*/
 .article__container {
     max-width: 998px;
     margin-left: 119px;
 }
 
+/*Стили "Как себя мотивировать"*/
 .article_title {
     font-family: 'Spectral SC', serif;
     font-style: normal;
@@ -594,7 +608,8 @@ h1 {
 }
 
 
-
+/*Стили Комментариев */
+/*контейнер комментариев*/
 .comments__container {
     max-width: 793px;
     margin-left: 121px;
@@ -629,18 +644,17 @@ h1 {
     color: #2E2F22;
 }
 
+.comments__user {
+    display: flex;
+    font-weight: bold;
+}
+
 .comments__img {
     width: 50px;
     height: 50px;
     border-radius: 10px;
     margin-right: 12px;
 }
-
-.comments__user {
-    display: flex;
-    font-weight: bold;
-}
-
 
 
 .comments__title {
@@ -686,15 +700,6 @@ h1 {
 
 }
 
-.comments__area {
-    width: 360px;
-    height: 180px;
-    border: 1px solid #2E2F22;
-    border-radius: 10px;
-    padding: 18px 20px;
-
-}
-
 .comments__button {
     width: 224px;
     height: 46px;
@@ -703,4 +708,13 @@ h1 {
     margin-top: 50px;
     background-color: #FFFFFF;
     cursor: pointer;
+}
+
+.comments__area {
+    width: 360px;
+    height: 180px;
+    border: 1px solid #2E2F22;
+    border-radius: 10px;
+    padding: 18px 20px;
+
 }
