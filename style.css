@@ -500,7 +500,7 @@ a:active {
 }
 
 /*Стили "Как себя мотивировать"*/
-.article_title {
+.article__title {
     font-family: 'Spectral SC', serif;
     font-style: normal;
     font-weight: bold;
@@ -590,14 +590,33 @@ h1 {
 
 .article__link {
     text-decoration: none;
+
+}
+
+.article__link-block {
     display: flex;
+
 }
 
-.article__arrow {
-    margin-left: 26px;
-    margin-top: 5px;
+.arrow-right {
+    transform: rotate(45deg);
+
 }
 
+.arrow-palka {
+    border-top: 3px solid #2E2F22;
+    margin-left: 9px;
+
+    padding-bottom: 0px;
+}
+
+.arrow {
+    width: 9px;
+    height: 9px;
+    border-top: 3px solid #2E2F22;
+    border-right: 3px solid #2E2F22;
+    border-radius: 2px;
+}
 
 /*Стили Комментариев */
 /*контейнер комментариев*/
