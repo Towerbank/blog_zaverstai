@@ -186,7 +186,7 @@ h2 {
 
 
 .articles__content-2 .articles__title {
-    font-family: Spectral SC;
+    font-family: 'Spectral SC', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -232,7 +232,6 @@ h2 {
     font-weight: normal;
     font-size: 16px;
     color: #202117;
-    background: #E5E5E5;
     margin-top: 104px;
     cursor: pointer;
 }
@@ -397,6 +396,7 @@ h2 {
     border: none;
     height: 637px;
     background-size: contain;
+
 }
 
 .write__comment-field {
@@ -431,6 +431,7 @@ h2 {
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 10px;
+    outline: none;
 }
 
 .write__input {
@@ -452,18 +453,17 @@ h2 {
     width: 224px;
     height: 46px;
     border: 1px solid #202117;
-    border-radius: 10px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid #202117;
-    box-sizing: border-box;
     border-radius: 10px;
-    font-family: Open Sans;
+    font-family: 'Spectral SC', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #202117;
+
 }
 
 .footer {
@@ -532,7 +532,7 @@ h2 {
 
 .article__figure {
     margin: 0 auto;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -599,13 +599,13 @@ h1 {
     max-width: 793px;
     margin-left: 121px;
     margin-top: 65px;
-    max-height: 816px;
+    height: 816px;
 }
 
 .comments__field {
     border-radius: 10px;
     background: #ECE1E1;
-    height: 429px;
+    min-height: 429px;
     display: flex;
     justify-content: center;
     margin-bottom: 77px;
@@ -621,7 +621,7 @@ h1 {
 
 .comments__comment {
     list-style: none;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -644,33 +644,32 @@ h1 {
 
 
 .comments__title {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
     color: #2E2F22;
-    margin-left: 81px;
+    margin-left: 83px;
+    margin-bottom: 60px;
 }
 
 .comments__form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-
-
+    align-items: flex-end;
 }
 
 .comments__inputs {
     display: flex;
     flex-direction: column;
     margin-left: 81px;
+    margin-bottom: 3px;
 }
 
 .comment__input {
-    border: none;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -680,6 +679,7 @@ h1 {
 }
 
 .input-area {
+    border: none;
     border-bottom: 1px solid #2E2F22;
     width: 221px;
     padding-bottom: 15px;
@@ -687,12 +687,12 @@ h1 {
 }
 
 .comments__area {
-    width: 400px;
-    height: 200px;
+    width: 360px;
+    height: 180px;
     border: 1px solid #2E2F22;
     border-radius: 10px;
     padding: 18px 20px;
-    margin-left: 30px;
+
 }
 
 .comments__button {
@@ -700,5 +700,7 @@ h1 {
     height: 46px;
     border: 1px solid #202117;
     border-radius: 10px;
-    margin-top: 53px;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }

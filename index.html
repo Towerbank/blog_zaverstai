@@ -46,16 +46,17 @@
           <h2 class="">Все статьи</h2>
           <select class='articles__select'>
             <option hidden>Выберите тему</option>
+            <option value="">Путешествия</option>
             <option value="">Город</option>
             <option value="">Книги</option>
-            <option value="">Путешествия</option>
-            <option value="">Рецепты</option>
             <option value="">Фотографии</option>
+            <option value="">Рецепты</option>
+            <option value="">Все статьи</option>
           </select>
         </header>
         <div class='articles__content-1'>
-          <a href="/Article.html" class="articles__link link-1">
-            <img src="img/Article-1.png" alt="" class="articles__img">
+          <a href="Article.html" class="articles__link link-1">
+            <img src="img/Article-1.png" alt="Лето в Берлине" class="articles__img">
             <div class='articles__main'>
               <h3 class='articles__title'>Путешествие в Берлин в августе </h3>
               <p class='articles__description'>Летний месяц я провела в столице Германии<br>
@@ -66,8 +67,8 @@
               <time datetime="2020-09-29">29.09.2020</time>
             </div>
           </a>
-          <a href="/Article.html" class="articles__link link-1">
-            <img src="img/Article-2.png" alt="" class="articles__img">
+          <a href="Article.html" class="articles__link link-1">
+            <img src="img/Article-2.png" alt="Напиток: Колдрбю" class="articles__img">
             <div class='articles__main'>
               <h3 class='articles__title'>Где выпить колдбрю в Москве</h3>
               <p class='articles__description'>Собрала для вас список любимых кофеен,<br>
@@ -78,8 +79,8 @@
               <time datetime="2020-07-24">24.07.2020</time>
             </div>
           </a>
-          <a href="/Article.html" class="articles__link link-1">
-            <img src="img/Article-3.png" alt="" class="articles__img article-3">
+          <a href="Article.html" class="articles__link link-1">
+            <img src="img/Article-3.png" alt="Книги и очки" class="articles__img article-3">
             <div class='articles__main'>
               <h3 class='articles__title'>Прочитано: книжные рекомендации</h3>
               <p class='articles__description'>Рассказываю о прочитанных за последнее<br>
@@ -92,7 +93,7 @@
           </a>
         </div>
         <div class='articles__content-2'>
-          <a href="/Article.html" class="articles__link link-2">
+          <a href="Article.html" class="articles__link link-2">
             <div class='articles__main'>
               <h3 class='articles__title'>Снимки на плёнку</h3>
               <p class='articles__description'>Поделилась с вами весенними фотографиями, <br>
@@ -103,7 +104,7 @@
               <time datetime="2020-06-29">29.06.2020</time>
             </div>
           </a>
-          <a href="/Article.html" class="articles__link link-3">
+          <a href="Article.html" class="articles__link link-3">
             <div class='articles__main'>
               <h3 class='articles__title'>Домашний чизкейк</h3>
               <p class='articles__description'>Что может быть лучше чизкейка с сезонными<br>
@@ -188,7 +189,7 @@
               мне работать продуктивно из дома. </p>
           </span>
         </div>
-        <input type="button" value="Показать еще" class="button">
+        <input type="button" value="ПОКАЗАТЬ ЕЩЁ" class="button">
       </section>
 
     </div>
@@ -197,23 +198,26 @@
         <section class="write" id='write'>
           <h2 class="write__title">Написать мне</h2>
           <fieldset class='write__field'>
-            <div class='write__data'>
-              <span class='write__name'>
-                <label for="name">Ваше имя</label><br>
-                <input type='text' class="write__input write__text" name='name' id='name' placeholder='Иван Иванов'>
-              </span>
-              <span class='write__email'>
-                <label for="email">Email</label><br>
-                <input type="email" class="write__input write__text" id="email" name="email"
-                  placeholder='google@gmail.com'>
-              </span>
-            </div>
-            <div class='write__comment-field'>
-              <label for='write-field'>Сообщение</label>
-              <textarea type="text" class="write__comment write__text" id="write-field"
-                placeholder="Напишите здесь ваше сообщение."></textarea>
-            </div>
-            <input type="submit" class='write__button' value="Отправить">
+            <form method="post" action="">
+              <div class='write__data'>
+                <div class='write__name'>
+                  <label for="name">Ваше имя</label><br>
+                  <input type='text' class="write__input write__text" name='name' id='name' placeholder='Иван Иванов'
+                    required>
+                </div>
+                <div class='write__email'>
+                  <label for="email">Email</label><br>
+                  <input type="email" class="write__input write__text" id="email" name="email"
+                    placeholder='google@gmail.com' required>
+                </div>
+              </div>
+              <div class='write__comment-field'>
+                <label for='write-field'>Сообщение</label>
+                <textarea type="text" class="write__comment write__text" id="write-field"
+                  placeholder="Напишите здесь ваше сообщение." minlength='10' maxlength='200' required></textarea>
+              </div>
+              <input type="submit" class='write__button' value="Отправить">
+            </form>
           </fieldset>
         </section>
       </div>

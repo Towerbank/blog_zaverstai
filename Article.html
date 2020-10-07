@@ -16,7 +16,7 @@
 
             <div class="container-wrap">
                 <div class="logo">
-                    <a href="/index.html"><img src="img/logo2.png" width="130" height="82.51" alt="Anne sweet"></a>
+                    <a href="index.html"><img src="img/logo2.png" width="130" height="82.51" alt="Anne sweet"></a>
                 </div>
                 <nav class='header__nav'>
                     <ul class='header__list'>
@@ -67,7 +67,7 @@
             </pre>
 
             <figure class='article__figure'>
-                <img src='img/Article.png' class='article__img' atl='Календарь'>
+                <img src='img/Article.png' class='article__img' alt='Календарь'>
                 <figcaption>Моё поведение регулируется больше BAS, поэтому при планировании целей я всегда использую
                     позитивный стимул.</figcaption>
             </figure>
@@ -158,14 +158,13 @@
                                 class='comment__input input-area' required>
                         </p>
                         <div>
-                            <input type="hidden" name="page_id" value="150">
                             <input type="submit" value="Отправить" class='comments__button'>
                         </div>
                     </div>
                     <div class=''>
-                        <label for='comment-field'></label>
-                        <textarea name="comments__area" class='comments__area comment__input' id='comment-field'
-                            placeholder='Написать комментарий...'></textarea>
+                        <label for='comments-area'></label>
+                        <textarea name="comments__area" class='comments__area comment__input' id='comments-area'
+                            placeholder='Написать комментарий...' minlength='10' maxlength='200' required></textarea>
                     </div>
 
                 </form>
