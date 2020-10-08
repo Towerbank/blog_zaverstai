@@ -3,6 +3,12 @@ body {
     max-width: 1440px;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 /**/
 
 a {
