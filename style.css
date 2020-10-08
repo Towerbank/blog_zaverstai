@@ -636,7 +636,7 @@ h1 {
     max-width: 793px;
     margin-left: 121px;
     margin-top: 65px;
-    height: 816px;
+
 }
 
 .comments__field {
@@ -658,16 +658,18 @@ h1 {
 
 .comments__comment {
     list-style: none;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #2E2F22;
 }
 
 .comments__user {
     display: flex;
+}
+
+.comments__name {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
     font-weight: bold;
 }
 
@@ -678,6 +680,14 @@ h1 {
     margin-right: 12px;
 }
 
+.comments__text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
+}
 
 .comments__title {
     font-family: 'Open Sans', sans-serif;
