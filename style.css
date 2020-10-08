@@ -570,7 +570,6 @@ h2 {
 }
 
 .article__like.added {
-    background: url('img/like.svg') no-repeat;
     transform: rotate(5deg);
 
 }
