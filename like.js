@@ -1,5 +1,5 @@
 let like = document.querySelector('.article__like');
-let likesNumber = document.querySelector('.article__likes-number')
+let likesNumber = document.querySelector('.article__likes-number');
 
 like.onclick = function () {
     if (like.classList.contains('added')) {
