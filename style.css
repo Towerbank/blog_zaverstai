@@ -569,7 +569,13 @@ h2 {
     height: 50px;
 }
 
-.article__likes {
+.article__like.added {
+    background: url('img/like.svg') no-repeat;
+    transform: rotate(5deg);
+
+}
+
+.article__likes-number {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
