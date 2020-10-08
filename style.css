@@ -124,6 +124,9 @@ h2 {
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
 
 /*Стили первых 3х новостей*/
 .articles__content-1 {
@@ -171,27 +174,28 @@ h2 {
 /*Стили нижней строки новостей */
 .articles__content-2 {
     display: flex;
-    height: 552px;
     width: 100%;
 }
 
-.articles__content-2 .articles__link {
-    flex: 0 1 50%;
-}
 
-.link-1 {
+.articles__link-1 {
     background: url('img/Article-4.png') no-repeat;
     border-radius: 10px;
     margin-right: 20px;
+    height: 552px;
+    width: 590px;
 }
 
-.link-2 {
+.articles__link-2 {
     background: url('img/Article-5.png') no-repeat;
+    height: 552px;
+    width: 590px;
     border-radius: 10px;
 }
 
 .articles__content-2 .articles__main {
     margin-left: 82px;
+    padding-top: 1px;
 }
 
 
