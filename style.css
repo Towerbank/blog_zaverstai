@@ -42,13 +42,13 @@ a:active {
 
 /*Стили фона Хедера и Хедера2*/
 .header {
-    background: url('img/dekstop-1.png') no-repeat center;
+    background: url('img/dekstop-1.jpg') no-repeat center;
     height: 581px;
     margin: 0;
 }
 
 .header-2 {
-    background: url('img/dekstop-2.png') no-repeat center;
+    background: url('img/dekstop-2.jpg') no-repeat center;
     height: 581px;
     margin: 0;
 }
@@ -185,7 +185,7 @@ h2 {
 
 
 .articles__link-1 {
-    background: url('img/Article-4.png') no-repeat;
+    background: url('img/article-4.jpg') no-repeat;
     border-radius: 10px;
     margin-right: 20px;
     height: 552px;
@@ -193,7 +193,7 @@ h2 {
 }
 
 .articles__link-2 {
-    background: url('img/Article-5.png') no-repeat;
+    background: url('img/article-5.jpg') no-repeat;
     height: 552px;
     width: 590px;
     border-radius: 10px;
@@ -355,7 +355,7 @@ h2 {
 }
 
 .post-1 {
-    background-image: url('img/Portfolio-1.png');
+    background-image: url('img/portfolio-1.jpg');
     width: 387px;
     height: 525px;
     margin-right: 20px;
@@ -364,7 +364,7 @@ h2 {
 }
 
 .post-2 {
-    background: url('img/Portfolio-2.png');
+    background: url('img/portfolio-2.jpg');
     color: #FFFFFF;
     margin-right: 20px;
     width: 387px;
@@ -374,7 +374,7 @@ h2 {
 }
 
 .post-3 {
-    background-image: url('img/Portfolio-3.png');
+    background-image: url('img/portfolio-3.jpg');
     width: 387px;
     height: 525px;
     border-radius: 10px;
@@ -405,11 +405,11 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #2E2F22;
-    background: url('img/write.png') no-repeat;
+    background: url('img/write.jpg') no-repeat;
     border-radius: 10px;
     border: none;
     height: 637px;
-    background-size: contain;
+    background-size: cover;
 
 }
 
