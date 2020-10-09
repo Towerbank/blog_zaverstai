@@ -42,13 +42,13 @@ a:active {
 
 /*Стили фона Хедера и Хедера2*/
 .header {
-    background: url('img/dekstop-1.jpg') no-repeat center;
+    background: url('/img/dekstop-1.jpg') no-repeat center;
     height: 581px;
     margin: 0;
 }
 
 .header-2 {
-    background: url('img/dekstop-2.jpg') no-repeat center;
+    background: url('/img/dekstop-2.jpg') no-repeat center;
     height: 581px;
     margin: 0;
 }
@@ -116,7 +116,7 @@ h2 {
     cursor: pointer;
     appearance: none;
     outline: none;
-    background: url('img/Polygon_1.svg') no-repeat 90% 50% #D7D1C9;
+    background: url('/img/Polygon_1.svg') no-repeat 90% 50% #D7D1C9;
 }
 
 
@@ -185,7 +185,7 @@ h2 {
 
 
 .articles__link-1 {
-    background: url('img/image-4.jpg') no-repeat;
+    background: url('/img/image-4.jpg') no-repeat;
     border-radius: 10px;
     margin-right: 20px;
     height: 552px;
@@ -193,7 +193,7 @@ h2 {
 }
 
 .articles__link-2 {
-    background: url('img/article-5.jpg') no-repeat;
+    background: url('/img/article-5.jpg') no-repeat;
     height: 552px;
     width: 590px;
     border-radius: 10px;
@@ -261,6 +261,10 @@ h2 {
 
 /*Стили для Блога*/
 
+.blog {
+    margin-bottom: 83px;
+}
+
 .blog__title {
     margin-top: 85px;
     text-align: center;
@@ -306,6 +310,7 @@ h2 {
     border-left: 3px solid #D7D1C9;
     margin-left: 20px;
     padding-left: 20px;
+    margin-top: 70px;
 }
 
 
@@ -355,7 +360,7 @@ h2 {
 }
 
 .post-1 {
-    background-image: url('img/portfolio-1.jpg');
+    background-image: url('/img/portfolio-1.jpg');
     width: 387px;
     height: 525px;
     margin-right: 20px;
@@ -364,7 +369,7 @@ h2 {
 }
 
 .post-2 {
-    background: url('img/portfolio-2.jpg');
+    background: url('/img/portfolio-2.jpg');
     color: #FFFFFF;
     margin-right: 20px;
     width: 387px;
@@ -374,7 +379,7 @@ h2 {
 }
 
 .post-3 {
-    background-image: url('img/portfolio-3.jpg');
+    background-image: url('/img/portfolio-3.jpg');
     width: 387px;
     height: 525px;
     border-radius: 10px;
@@ -405,7 +410,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #2E2F22;
-    background: url('img/write.jpg') no-repeat;
+    background: url('/img/write.jpg') no-repeat;
     border-radius: 10px;
     border: none;
     height: 637px;
@@ -572,7 +577,7 @@ h2 {
 .article__like {
     border: none;
     background-color: #FFFFFF;
-    background: url('img/like.svg') no-repeat;
+    background: url('/img/like.svg') no-repeat;
     outline: none;
     cursor: pointer;
     width: 50px;
