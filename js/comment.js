@@ -4,7 +4,7 @@ let commentArea = document.querySelector('.comments__area');
 let commentName = document.querySelector('.input-name');
 let commentEmail = document.querySelector('.input-email');
 let commentUser = document.querySelector('.comments__user');
-let commentButton = document.querySelector('comments__button');
+let commentButton = document.querySelector('.comments__button');
 
 commentForm.onsubmit = function (evt) {
     evt.preventDefault();
@@ -46,6 +46,7 @@ commentArea.oninput = function () {
         commentButton.disabled = true;
     } else {
         commentArea.classList.remove('warning');    
+        commentButton.disabled = false;
     }
   };
-  
+ 
