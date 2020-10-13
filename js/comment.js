@@ -3,7 +3,7 @@ let commentList = document.querySelector('.comments__list');
 let commentArea = document.querySelector('.comments__area');
 let commentName = document.querySelector('.input-name');
 let commentEmail = document.querySelector('.input-email');
-let commentUser = document.querySelector('.comment__user');
+let commentUser = document.querySelector('.comments__user');
 let commentButton = document.querySelector('comments__button');
 
 commentForm.onsubmit = function (evt) {
@@ -13,7 +13,7 @@ commentForm.onsubmit = function (evt) {
     newComment.classList.add('comments__comment');
 
     let newUser = document.createElement('div');
-    newUser.classList.add('comment__user');
+    newUser.classList.add('comments__user');
 
     let newEmail = document.createElement('img');
     newEmail.classList.add('comments__img');
