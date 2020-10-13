@@ -41,12 +41,11 @@ commentForm.onsubmit = function (evt) {
 
 
 commentArea.oninput = function () {
-    if (commentArea.value.length < 10 || commentArea.value.length >= 200 ) {
+    if (commentArea.value.length < 10 || commentArea.value.length > 200) {
         commentArea.classList.add('warning');
         commentButton.disabled = true;
     } else {
-        commentArea.classList.remove('warning');
-        commentButton.disabled = false;
+        commentArea.classList.remove('warning');    
     }
   };
   

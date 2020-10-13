@@ -771,6 +771,8 @@ h1 {
     opacity: 0.25;
 }
 
+
+
 .comments__area {
     width: 360px;
     height: 180px;
@@ -781,6 +783,6 @@ h1 {
 }
 
 .comments__area.warning {
-    color: #f05b29;
-    border-color: #f05b29;
+    color: #f04729;
+    border-color: #f04729;
 }
