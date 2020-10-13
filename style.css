@@ -489,7 +489,8 @@ h2 {
 }
 
 .write__button:disabled {
-    opacity: 0.25;
+    opacity: 0.4;
+    border-color: #010127;
 }
 
 
