@@ -425,13 +425,17 @@ h2 {
     margin-right: 78px;
 }
 
+.write__comment.warning {
+    color: #f04729;
+    border-color: #f04729;
+}
+
 .write__data {
     display: flex;
     justify-content: center;
     margin-top: 53px;
     margin-bottom: 20px;
 }
-
 
 .write__text {
     padding: 20px 20px;
@@ -483,6 +487,11 @@ h2 {
     color: #202117;
 
 }
+
+.write__button:disabled {
+    opacity: 0.25;
+}
+
 
 
 /*Стили общего Футера*/
