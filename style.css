@@ -661,6 +661,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 77px;
+    box-sizing: border-box;
 
 }
 
@@ -669,10 +670,19 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-top: 44px;
 }
 
 .comments__comment {
     list-style: none;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+}
+
+.comments__comment-user1 {
+    margin-bottom: 55px;
 }
 
 .comments__user {
@@ -757,6 +767,10 @@ h1 {
     cursor: pointer;
 }
 
+.comments__button:disabled {
+    opacity: 0.25;
+}
+
 .comments__area {
     width: 360px;
     height: 180px;
@@ -764,4 +778,9 @@ h1 {
     border-radius: 10px;
     padding: 18px 20px;
 
+}
+
+.comments__area.warning {
+    color: #f05b29;
+    border-color: #f05b29;
 }

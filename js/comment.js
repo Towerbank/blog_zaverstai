@@ -4,6 +4,7 @@ let commentArea = document.querySelector('.comments__area');
 let commentName = document.querySelector('.input-name');
 let commentEmail = document.querySelector('.input-email');
 let commentUser = document.querySelector('.comment__user');
+let commentButton = document.querySelector('comments__button');
 
 commentForm.onsubmit = function (evt) {
     evt.preventDefault();
@@ -37,3 +38,15 @@ commentForm.onsubmit = function (evt) {
     commentName.value = '';
     commentEmail.value = '';
 };
+
+
+commentArea.oninput = function () {
+    if (commentArea.value.length < 10 || commentArea.value.length >= 200 ) {
+        commentArea.classList.add('warning');
+        commentButton.disabled = true;
+    } else {
+        commentArea.classList.remove('warning');
+        commentButton.disabled = false;
+    }
+  };
+  
