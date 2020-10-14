@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Как себя мотивировать, практические советы">
     <title>Блог Анны</title>
     <link rel="stylesheet" href="style.css">
 
@@ -40,7 +41,7 @@
     <main>
 
         <section class="article__container">
-            <h2 class='article__title'>Как себя мотивировать</h2>
+            <h1 class='article__title'>Как себя мотивировать</h1>
             <div class='article__bottom'>
                 <span class='article__tags'>Теги: путешествия, друзья</span>
                 <time datatime='2020-09-29'>29.09.2020</time>
@@ -86,7 +87,7 @@
             </p>
             <div class='article__like-social'>
                 <div class='article__like-button'>
-                    <button class="article__like" type="button"></button>
+                    <button class="article__like" aria-label='like'></button>
                     <span class="article__likes-number">16</span>
                 </div>
                 <div class='article__social'>
@@ -96,7 +97,7 @@
                 </div>
             </div>
             <div class='article__link-block'>
-                <h1 class='article__link-title'>Ко всем статьям</h1>
+                <h2 class='article__link-title'>Ко всем статьям</h2>
                 <a href='index.html#articles' class='article__link'>
                     <div class="article__arrow"></div>
                 </a>
@@ -134,23 +135,26 @@
             <form class='comments__form' name="comment" method="post">
                 <div class='comments__inputs'>
                     <p>
-                        <label for="name"></label>
-                        <input type="text" id="name" name="name" placeholder='Имя' value=""
-                            class='comments__input comments__input-sring comments__input-name' required>
+
+                        <input type="text" id="name" name="name" placeholder='Имя'
+                            class='comments__input comments__input-sring comments__input-name' required
+                            aria-label='Имя'>
                     </p>
                     <p>
-                        <label for="email"></label>
+
                         <input type="email" id="email" name="email" placeholder="Почта"
-                            class='comments__input comments__input-sring comments__input-email' required>
+                            class='comments__input comments__input-sring comments__input-email' required
+                            aria-label='Почта'>
                     </p>
 
                     <button type="submit" class='comments__button'>Отправить</button>
 
                 </div>
                 <div>
-                    <label for='comments-area'></label>
+
                     <textarea name="comments__area" class='comments__area comments__input' id='comments-area'
-                        placeholder='Написать комментарий...' minlength='10' maxlength="200" required></textarea>
+                        placeholder='Написать комментарий...' minlength='10' maxlength="200" required
+                        aria-label='Комментарий'></textarea>
                 </div>
 
             </form>
