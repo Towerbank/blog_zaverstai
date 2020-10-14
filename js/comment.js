@@ -1,8 +1,8 @@
 let commentForm = document.querySelector('.comments__form');
 let commentList = document.querySelector('.comments__list');
 let commentArea = document.querySelector('.comments__area');
-let commentName = document.querySelector('.input-name');
-let commentEmail = document.querySelector('.input-email');
+let commentName = document.querySelector('.comments__input-name');
+let commentEmail = document.querySelector('.comments__input-email');
 let commentUser = document.querySelector('.comments__user');
 let commentButton = document.querySelector('.comments__button');
 
