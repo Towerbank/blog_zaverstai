@@ -43,15 +43,17 @@
       <section class="articles" id='articles'>
         <header class='articles__header'>
           <h2 class="articles__title">Все статьи</h2>
-          <select name='Tags' class='articles__select'>
-            <option label="Выберите тему" selected hidden>Выберите тему</option>
-            <option label='Путешествия' value="travels">Путешествия</option>
-            <option label='Город' value="city">Город</option>
-            <option label='Книги' value="books">Книги</option>
-            <option label='Фотографии' value="images">Фотографии</option>
-            <option label='Рецепты' value="cook">Рецепты</option>
-            <option label='Все статьи' value="all">Все статьи</option>
+          <label for='select' class='articles__label'>Список тегов</label>
+          <select id='select' class='articles__select'>
+            <option hidden>Выберите тему</option>
+            <option value="travels">Путешествия</option>
+            <option value="city">Город</option>
+            <option value="books">Книги</option>
+            <option value="images">Фотографии</option>
+            <option value="cook">Рецепты</option>
+            <option value="all">Все статьи</option>
           </select>
+
         </header>
         <div class='articles__content-1'>
           <article data-category="travels" class='articles__category'>

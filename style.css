@@ -90,6 +90,7 @@ a:active {
     justify-content: space-between;
     align-items: center;
     margin-top: 83px;
+    position: relative;
 
 }
 
@@ -100,6 +101,19 @@ h2 {
     font-weight: 700;
     color: #2E2F22;
     font-weight: bold;
+}
+
+.articles__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
 }
 
 .articles__select {
