@@ -153,7 +153,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 62px;
 }
 
 .articles__content-1 .articles__subtitle {
@@ -196,6 +195,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 62px;
 }
 
 
