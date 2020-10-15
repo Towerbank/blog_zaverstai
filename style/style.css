@@ -643,16 +643,15 @@ h2 {
     background: #2E2F22;
     width: 62px;
     height: 2px;
-
-    right: 605px;
-    top: 25.5px;
+    right: 60%;
+    top: 52%;
 }
 
 .article__link:after {
     position: absolute;
     content: "";
-    top: 22px;
-    right: 605px;
+    top: 45%;
+    right: 60%;
     width: 9px;
     height: 9px;
     border-top: 2px solid #2E2F22;
