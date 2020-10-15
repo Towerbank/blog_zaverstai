@@ -624,9 +624,8 @@ h2 {
 }
 
 
-
-
 .article__link {
+    display: block;
     position: relative;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -635,12 +634,9 @@ h2 {
     font-size: 36px;
     line-height: 49px;
     color: #2E2F22;
-}
-
-.article__link-block {
-    display: flex;
     margin-top: 37px;
 }
+
 
 .article__link::before {
     position: absolute;
@@ -648,7 +644,7 @@ h2 {
     border-top: 2px solid #2E2F22;
     height: 0;
     width: 50px;
-    right: -65px;
+    right: 620px;
     top: 25.5px;
 }
 
@@ -656,7 +652,7 @@ h2 {
     position: absolute;
     content: "";
     top: 22px;
-    right: -65px;
+    right: 620px;
     width: 9px;
     height: 9px;
     border-top: 2px solid #2E2F22;
