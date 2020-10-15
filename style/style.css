@@ -647,11 +647,11 @@ h2 {
     background: #2E2F22;
     width: 62px;
     height: 2px;
-    top: 52%;
+    top: 53%;
 }
 
 .article__link::after {
-    top: 45%;
+    top: 46%;
     width: 9px;
     height: 9px;
     border-top: 2px solid #2E2F22;
