@@ -423,8 +423,6 @@ h2 {
     border-radius: 10px;
     border: none;
     height: 637px;
-    background-size: cover;
-
 }
 
 .write__comment-field {
@@ -475,7 +473,6 @@ h2 {
 .write__comment {
     margin-top: 12px;
     width: 837px;
-    height: 293px;
 }
 
 .write__button {
