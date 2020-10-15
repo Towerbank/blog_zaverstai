@@ -623,7 +623,7 @@ h2 {
 
 
 .article__link {
-    display: block;
+    display: inline-block;
     position: relative;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -639,19 +639,19 @@ h2 {
 .article__link::before,
 .article__link::after {
     position: absolute;
-    content: " ";
-    right: 60%;
+    content: "";
+    right: -28%;
 }
 
 .article__link::before {
     background: #2E2F22;
     width: 62px;
     height: 2px;
-    top: 53%;
+    top: 52%;
 }
 
 .article__link::after {
-    top: 46%;
+    top: 45%;
     width: 9px;
     height: 9px;
     border-top: 2px solid #2E2F22;
