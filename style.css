@@ -777,7 +777,7 @@ h2 {
     height: 46px;
     border: 1px solid #202117;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #202117;
     background-color: #FFFFFF;
     cursor: pointer;
@@ -789,8 +789,7 @@ h2 {
 }
 
 .comments__area {
-    width: 360px;
-    height: 180px;
+    width: 406px;
     border: 1px solid #2E2F22;
     border-radius: 10px;
     padding: 18px 20px;
