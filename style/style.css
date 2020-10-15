@@ -105,6 +105,7 @@ h2 {
 
 .articles__label {
     position: absolute;
+    right: 10%;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -210,8 +211,8 @@ h2 {
 
 .articles__content-2 .articles__main {
     position: absolute;
-    top: 339px;
-    left: 81px;
+    top: 61%;
+    left: 14%;
 }
 
 
