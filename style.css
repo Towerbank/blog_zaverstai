@@ -623,7 +623,12 @@ h2 {
     margin-left: 32px;
 }
 
-.article__link-title {
+
+
+
+.article__link {
+    position: relative;
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -632,37 +637,32 @@ h2 {
     color: #2E2F22;
 }
 
-.article__link {
-    text-decoration: none;
-
-}
-
 .article__link-block {
     display: flex;
-
+    margin-top: 37px;
 }
 
-.article__arrow {
-    position: relative;
+.article__link::before {
+    position: absolute;
+    content: '';
     border-top: 2px solid #2E2F22;
     height: 0;
     width: 50px;
-    margin-top: 56px;
-    margin-left: 25px;
+    right: -65px;
+    top: 25.5px;
 }
 
-.article__arrow:after {
+.article__link:after {
     position: absolute;
     content: "";
-    top: -6px;
-    right: 0px;
-    width: 10px;
-    height: 10px;
+    top: 22px;
+    right: -65px;
+    width: 9px;
+    height: 9px;
     border-top: 2px solid #2E2F22;
     border-right: 2px solid #2E2F22;
     transform: rotate(45deg);
     border-radius: 10%;
-
 }
 
 
@@ -699,12 +699,11 @@ h2 {
 
 .comments__comment {
     list-style: none;
-    box-sizing: border-box;
     margin-bottom: 22px;
 }
 
 .comments__comment1 {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
 }
 
 .comments__user {
