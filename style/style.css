@@ -42,13 +42,13 @@ a:active {
 
 /*Стили фона Хедера и Хедера2*/
 .header {
-    background: url('/img/dekstop-1.jpg') no-repeat center;
+    background: url('../img/dekstop-1.jpg') no-repeat center;
     height: 581px;
     margin: 0;
 }
 
 .header-2 {
-    background: url('/img/dekstop-2.jpg') no-repeat center;
+    background: url('../img/dekstop-2.jpg') no-repeat center;
     height: 581px;
     margin: 0;
 }
@@ -130,7 +130,7 @@ h2 {
     cursor: pointer;
     appearance: none;
     outline: none;
-    background: url('/img/Polygon_1.svg') no-repeat 90% 50% #D7D1C9;
+    background: url('../img/Polygon_1.svg') no-repeat 90% 50% #D7D1C9;
 }
 
 
@@ -369,7 +369,7 @@ h2 {
 }
 
 .portfolio__post-1 {
-    background-image: url('/img/portfolio-1.jpg');
+    background-image: url('../img/portfolio-1.jpg');
     width: 387px;
     height: 525px;
     margin-right: 20px;
@@ -378,7 +378,7 @@ h2 {
 }
 
 .portfolio__post-2 {
-    background: url('/img/portfolio-2.jpg');
+    background: url('../img/portfolio-2.jpg');
     color: #FFFFFF;
     margin-right: 20px;
     width: 387px;
@@ -388,7 +388,7 @@ h2 {
 }
 
 .portfolio__post-3 {
-    background-image: url('/img/portfolio-3.jpg');
+    background-image: url('../img/portfolio-3.jpg');
     width: 387px;
     height: 525px;
     border-radius: 10px;
@@ -419,7 +419,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #2E2F22;
-    background: url('/img/write.jpg') no-repeat;
+    background: url('../img/write.jpg') no-repeat;
     border-radius: 10px;
     border: none;
     height: 637px;
@@ -430,7 +430,6 @@ h2 {
     display: flex;
     flex-direction: column;
     margin-left: 65px;
-
 }
 
 .write__comment.warning {
@@ -597,7 +596,7 @@ h2 {
 .article__like {
     border: none;
     background-color: #FFFFFF;
-    background: url('/img/like.svg') no-repeat;
+    background: url('../img/like.svg') no-repeat;
     outline: none;
     cursor: pointer;
     width: 50px;
@@ -605,7 +604,7 @@ h2 {
 }
 
 .article__like.added {
-    background: url('/img/like_2.svg') no-repeat;
+    background: url('../img/like_2.svg') no-repeat;
 
 }
 
