@@ -497,6 +497,7 @@ h2 {
 .write__button:disabled {
     opacity: 0.4;
     border-color: #010127;
+    cursor: default;
 }
 
 
@@ -784,6 +785,7 @@ h2 {
 
 .comments__button:disabled {
     opacity: 0.25;
+    cursor: default;
 }
 
 .comments__area {
