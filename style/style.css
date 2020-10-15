@@ -637,21 +637,22 @@ h2 {
 }
 
 
-.article__link::before {
+.article__link::before,
+.article__link::after {
     position: absolute;
     content: " ";
+    right: 60%;
+}
+
+.article__link::before {
     background: #2E2F22;
     width: 62px;
     height: 2px;
-    right: 60%;
-    top: 52%;
+    top: 53%;
 }
 
 .article__link::after {
-    position: absolute;
-    content: "";
-    top: 45%;
-    right: 60%;
+    top: 46%;
     width: 9px;
     height: 9px;
     border-top: 2px solid #2E2F22;
