@@ -429,13 +429,13 @@ h2 {
 .write__comment-field {
     display: flex;
     flex-direction: column;
-    margin-left: 81px;
-    margin-right: 78px;
+    margin-left: 65px;
+
 }
 
 .write__comment.warning {
-    color: #f04729;
-    border-color: #f04729;
+    color: #ff0000;
+    border-color: #ff0000;
 }
 
 .write__data {
@@ -798,6 +798,6 @@ h2 {
 }
 
 .comments__area.warning {
-    color: #f04729;
-    border-color: #f04729;
+    color: #ff0000;
+    border-color: #ff0000;
 }
