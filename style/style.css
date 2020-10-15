@@ -647,7 +647,7 @@ h2 {
     top: 52%;
 }
 
-.article__link:after {
+.article__link::after {
     position: absolute;
     content: "";
     top: 45%;
