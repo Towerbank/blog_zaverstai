@@ -33,7 +33,7 @@ a:active {
 }
 
 /*Контейнер Хедера*/
-.container-wrap {
+.header__wrap {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -639,11 +639,12 @@ h2 {
 
 .article__link::before {
     position: absolute;
-    content: '';
-    border-top: 2px solid #2E2F22;
-    height: 0;
-    width: 50px;
-    right: 620px;
+    content: " ";
+    background: #2E2F22;
+    width: 62px;
+    height: 2px;
+
+    right: 605px;
     top: 25.5px;
 }
 
@@ -651,7 +652,7 @@ h2 {
     position: absolute;
     content: "";
     top: 22px;
-    right: 620px;
+    right: 605px;
     width: 9px;
     height: 9px;
     border-top: 2px solid #2E2F22;
