@@ -654,8 +654,8 @@ h2 {
     top: 46%;
     width: 9px;
     height: 9px;
-    border-top: 2px solid #2E2F22;
-    border-right: 2px solid #2E2F22;
+    border-top: 3px solid #2E2F22;
+    border-right: 3px solid #2E2F22;
     transform: rotate(45deg);
     border-radius: 10%;
 }
