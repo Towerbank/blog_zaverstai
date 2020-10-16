@@ -628,9 +628,9 @@ h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 49px;
     color: #2E2F22;
     margin-top: 37px;
+    padding-right: 90px;
 }
 
 
@@ -638,8 +638,7 @@ h2 {
 .article__link::after {
     position: absolute;
     content: "";
-    right: -28%;
-
+    right: 1%;
 }
 
 .article__link::before {
