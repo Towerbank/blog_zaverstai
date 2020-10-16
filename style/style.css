@@ -603,8 +603,7 @@ h2 {
 }
 
 .article__like.added {
-    background: url('../img/like_2.svg') no-repeat;
-
+    background: url('../img/like_1.svg') no-repeat;
 }
 
 .article__likes-number {
@@ -647,15 +646,15 @@ h2 {
     background: #2E2F22;
     width: 62px;
     height: 2px;
-    top: 53%;
+    top: 54%;
 }
 
 .article__link::after {
     top: 46%;
     width: 9px;
     height: 9px;
-    border-top: 3px solid #2E2F22;
-    border-right: 3px solid #2E2F22;
+    border-top: 2px solid #2E2F22;
+    border-right: 2px solid #2E2F22;
     transform: rotate(45deg);
     border-radius: 10%;
 }
