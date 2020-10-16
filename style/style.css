@@ -328,7 +328,6 @@ h2 {
 
 .portfolio {
     margin-top: 83px;
-    height: 779px;
 }
 
 .portfolio__title {
@@ -641,6 +640,7 @@ h2 {
     position: absolute;
     content: "";
     right: -28%;
+
 }
 
 .article__link::before {
